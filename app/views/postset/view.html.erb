@@ -1,0 +1,36 @@
+<div id="navigation">
+
+	<%# This section provides links between postsets.%>
+	<% if @prev == @postset -%>
+		&lt;&lt; | &lt; |
+	<% else -%>
+		<%= link_to '&lt;&lt;', :action => 'view', :id => @first.id %> 
+		 <%#link_to_remote "First",
+  			  :url => { :action => "view", :id => @first.id },
+			  :update => "postsetcontent"%> |
+		<%= link_to '&lt;', :action => 'view', :id => @prev.id %> |
+	<% end -%>
+	<% if @next == @postset -%>
+		&gt; | &gt;&gt;
+	<% else -%>
+		<%= link_to '&gt;', :action => 'view', :id => @next.id %> |
+		<%= link_to '&gt;&gt;', :action => 'index'%>
+	<% end -%>
+	
+	<% if admin? -%>
+		<br/>
+		<%= link_to 'Make_New', :action => 'new'%> | 
+		<%= link_to 'Edit', :action => 'edit', :id => @postset%> | 
+		<%= link_to 'Newest', :action => 'view', :id => Postset.find(:all).last%> | 
+		<%= link_to 'Link_list', :controller => 'link', :action => 'list'%> | 
+		<%= link_to 'Post_list', :controller => 'post', :action => 'list'%> |
+		<%= link_to 'RTR Link Return', {:controller => 'postset', :action => 'move_links'}, :confirm => "Andy, are you sure you want to do this?"%> |
+		<% unless @postset.published -%>
+		  <br/>
+		  <%=link_to "Publish", {:controller => 'postset', :action => 'publish', :id => @postset}, :confirm => 'Are you sure? This will make it public.', :method => :post  %>
+		<% end -%>
+	<% end -%>
+		
+		
+</div>
+<%= render :partial => "postsethelper", :object => @postset%>

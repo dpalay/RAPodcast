@@ -1,0 +1,5 @@
+page.insert_html :bottom, :linkul, :partial => 'postset/linklist', :object => @link
+page[:link_submit_form].reset
+page.replace_html  :link_flash, flash[:link_create_status]
+page.replace_html :link_error, ""
+flash.discard

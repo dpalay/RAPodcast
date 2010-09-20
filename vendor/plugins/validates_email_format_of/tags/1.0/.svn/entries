@@ -1,0 +1,82 @@
+8
+
+dir
+10
+file:///C:/svn/vendor/plugins/validates_email_format_of/tags/1.0
+file:///C:/svn
+
+
+
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+test
+dir
+
+rakefile
+file
+
+
+
+
+2008-01-11T05:14:08.019161Z
+999dd6c7f4380344faeefcb4dfd0639f
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+init.rb
+file
+
+
+
+
+2008-01-11T05:14:07.395178Z
+e27a139815f320613b9459da32ae5350
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-01-11T05:14:06.821972Z
+ac5304000779f6f35d13a421caf6c65f
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+MIT-LICENSE
+file
+
+
+
+
+2008-01-11T05:14:07.007507Z
+2fab4c911bf3b690bad61bbef677f4da
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+README
+file
+
+
+
+
+2008-01-11T05:14:07.207690Z
+8550ef05eb5a08b874eb6def502592ea
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+

@@ -1,0 +1,79 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/dnsbl_check
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:55.221139Z
+8658b02548a6e0002a7fc70a66216103
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+install.rb
+file
+
+
+
+
+2008-01-10T18:07:55.224068Z
+ae1910e6db06255fe92f694be6f6926d
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+403.html
+file
+
+
+
+
+2008-01-10T18:07:55.226998Z
+2c737f95bc4df645f34eaf030eab7779
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+README
+file
+
+
+
+
+2008-01-10T18:07:55.243598Z
+8c0956b8205adbba48823d983b0931f4
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

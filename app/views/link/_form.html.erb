@@ -1,0 +1,13 @@
+<% form_remote_for 'link', :url => {:controller => 'link', :action => 'create'}, :html => { :id => 'link_submit_form'} do |f| %>
+<%= error_messages_for 'link' %>
+
+<!--[form:link]-->
+<label for="link_title">Title:</label><br/>
+<%= f.text_field 'title' %><br/>
+
+<label for="link_url">URL:</label><br/>
+<%= f.text_field 'url' %>
+<%= submit_tag 'Create' %>
+<span id="loader_icon" style="display:none;position:relative;padding-left:48%;padding-top:.25em"><%= image_tag "ajax-loader.gif" %></span>
+<!--[eoform:link]-->
+<% end %>

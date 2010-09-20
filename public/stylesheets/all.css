@@ -1,0 +1,578 @@
+ /* //TODO:  Need to go through and clean this shit up */
+ 
+ /* global */
+html{height: 100%;}
+
+body
+{ font-family: verdana, arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .68em;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.7em;
+}
+
+h1 h3
+{ font-family: arial, sans-serif;
+  letter-spacing: .075em;
+}
+
+h2
+{ margin: 0px;
+  padding: 0px 0px 4px 0px;
+  font-size: 100%;
+}
+
+img{border: 0px;}
+
+a{outline: none;}
+
+/* image positioning - left, right and center */
+.left
+{ float: left; 
+  padding: 0px 8px 0px 0px;
+}
+
+.right
+{ float: right; 
+  padding: 0px 0px 0px 8px;
+}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* block quote */
+blockquote
+{ margin: 20px 0px 20px 0px; 
+  padding: 10px 20px 0px 20px;
+  border-left: 8px solid;
+}
+
+/* unordered list */
+ul
+{ margin: 8px 0px 0px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: none;
+  margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* ordered list */
+ol
+{ margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li
+{ margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* main container */
+#main
+{ width: 780px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* links above the logo / footer */
+#links, #footer
+{ margin-left: auto; 
+  margin-right: auto;
+  padding: 10px 21px 0px 19px;
+  width: 720px;
+  height: 26px;
+  font-size: 94%;
+  text-transform: uppercase;
+}
+
+#links{text-align: right;}
+
+#footer{text-align: center;}
+
+#links a, #footer a{text-decoration: none;}
+
+#links a:hover, #footer a:hover{text-decoration: underline;}
+
+/* logo */
+#logo
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 760px;
+  height: 100px;
+  text-align: left;
+}
+
+#logo h1
+{ margin: 0px;
+  padding: 41px 0px 0px 19px;
+  font-size: 150%;
+  letter-spacing: .2em;
+}
+
+/* Title_Bar Ads */
+#title_ad
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 760px;
+  height: 90px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* navigation menu */
+#menu
+{ height: 42px;
+  width: 760px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#menu ul{margin: 0px auto;} 
+
+#menu li
+{ float: left; 
+  margin: 0px; 
+  padding: 0px;
+} 
+
+#menu li a 
+{ display: block; 
+  float: left; 
+  height: 37px;
+  text-decoration: none; 
+  padding: 3px 19px 2px 19px;
+  text-transform: uppercase;
+} 
+
+/* main content */
+#content
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 760px;
+  height: auto;
+  padding: 0px;
+  overflow: hidden;
+} 
+
+/* column 1 - contains sidebar items */
+#column1
+{ width: 207px;
+  float: right;
+  padding: 16px 0px 15px 0px;
+}
+
+.sidebaritem
+{ text-align: left;
+  width: 188px;
+  float: left;
+  margin: 0px 0px 25px 0px;
+}
+
+.sbihead
+{ height: 14px;
+  width: 188px;
+  padding: 5px 0px 5px 19px;
+  text-transform: uppercase;
+}
+
+.sbihead h1, .sbihead h1 a
+{ padding: 0px; 
+  margin: 0px; 
+  font-weight: bold;
+  font-size: 112%;
+  text-decoration: none;
+}
+
+.sbicontent{padding: 14px 8px 8px 19px;}
+
+.sbicontent p
+{ line-height: 14px; 
+  padding: 0px 0px 8px 0px;
+}
+
+.sbilinks{padding: 0px;}
+
+.sbilinks ul{margin: 0px auto;} 
+
+.sbilinks li 
+{ margin: 0px; 
+  float: left; 
+
+} 
+
+.sbilinks li a , .sbilinks li a:hover
+{ float: left; 
+  list-style: none;
+  text-decoration: none; 
+  padding: 5px 0px 4px 19px;
+  width: 188px;
+  border: 0px;
+} 
+
+/* column 2 - page content */
+#column2
+{ text-align: justify;
+  width: 512px;
+  float: left;
+  padding: 12px 3px 15px 19px;
+}
+
+#column2 h1
+{ padding: 6px 0px 4px 0px; 
+  margin: 0px 0px 12px 0px; 
+  border-bottom: 1px solid;
+  font-weight: normal;
+  font-size: 1.9em;
+}
+
+#column2 a
+{
+	padding: 0px 0px 2px 0px;
+	text-decoration: underline;
+}
+.sidebaritem a, .sidebaritem a:hover, #column2 a:hover
+{ padding: 0px 0px 2px 0px;
+  text-decoration: none;
+
+}
+
+
+
+/* contact page - form layout */
+form{margin-top: 0px;}
+
+div.row
+{ clear: both;
+  width: 448px;
+}
+
+div.row span.formlabel 
+{ float: left;
+  width: 150px;
+  text-align: left;
+}
+
+div.row span.forminput
+{ float: right;
+  text-align: right;
+} 
+
+div.spacer
+{ clear: both;
+  width: 80px;
+}
+
+input, textarea
+{ width: 45%; 
+  font-family: verdana, arial, sans-serif;
+  border: 1px solid;
+  font-size: 100%;
+  margin: 2px;
+}
+
+.submit
+{ font-family: verdana, arial, sans-serif;
+  border: 1px solid;
+  width: 70px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+
+/* my personal code */
+#extras {
+	font-family: "Lucida Sans Typewriter";
+	font-size: 10px;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+#header {
+	margin-bottom: 15px;
+}
+
+
+#posts{
+	position: relative;
+	border: medium double #226633;
+	padding: 3px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	
+}
+
+.post_title{
+	float: left;
+	font-size: 150%;
+	width: 375px;
+}
+
+.post_date{
+	float: right;
+}
+
+.post_header{
+	height:1em;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
+
+#postset _date{
+	font-family: "Times New Roman";
+	font-size: 12px;
+}
+
+.a_post{
+}
+
+
+.andy {
+	color: green;
+}
+.dave{
+	color: #EE6600;
+}
+
+#header #header_title #header_podcast_link a {
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	color: #CE7014;
+	padding: 0px 0px 2px 0px;
+    border-bottom: 1px dashed;
+}
+
+#header_title a:hover {
+	border-bottom: 1px solid;
+}
+
+#header_shownotes_link {
+	margin-bottom: 5px;
+}
+
+#header_tags {
+	line-height: 1.7em;
+}
+
+.post_text{
+	padding-top: 2px;
+}
+
+.sidebaritem input, textarea
+{ width: 200px; 
+}
+
+.sbilinklist h1{
+	font-size: 85%;
+}
+
+#linklist {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#linklist ul li {
+	list-style-type: none;	
+}
+
+.link_in_list {
+
+}
+
+
+#feed_links a, #feed_links a:hover {
+	text-decoration: none;
+	border: none;
+}
+
+#navigation{
+	word-spacing: 3em;
+	text-align: center;
+}
+
+.flash_warning {
+	color: #FF3333;
+	margin-bottom: 15px;
+}
+
+#flash_notice {
+	border: 1px solid green;
+	padding: 20px 30px;
+	margin: 1em;
+	margin-bottom: 2em;
+	background-color: lightgoldenrodyellow;
+	font-size: 1.2em;
+		
+}
+
+#link_flash{
+	color: #33B514;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;	
+}
+
+#link_error{
+	color: #B93C3C;
+	font-weight: bold;	
+	text-align: center;
+}
+
+
+/*Hack to get IE to display fieldset / legend correctly*/
+html fieldset {
+	position: relative;
+}
+
+html legend {
+	position: absolute;
+	top: -1em;
+	left: .5em;
+	font-size: 125%;
+}
+
+html fieldset {
+	position: relative;
+	margin-top:1em;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+html fieldset label{
+	float: left;
+	text-align: right;		
+	width: 50%;
+}
+
+fieldset .submit{
+	position:relative;
+	width: 20%;
+	left: 40%;
+}
+
+
+.form_row{
+	white-space: nowrap;
+}
+
+#register_button {
+float: none;	
+position: relative;
+width: 20%;
+left: 40%;
+}
+
+/* debug style */
+
+#debug{
+	margin-top: 1em;
+	margin-left: auto;
+}
+#debug a, #debug a.visited {
+	text-decoration: none;
+	color: maroon;
+}
+
+fieldset.debug_info {
+	text-align:left;
+	background: #eee;
+	margin: 1em;
+	font-size:15px;	
+}
+
+#debug fieldset legend{
+	background: #222;
+	padding: 0.5em;
+	margin: 0.5em;
+	color: #eee;
+	
+}
+
+
+/* Error Reporting Styles */
+.fieldWithErrors{
+	margin: 2px;
+	padding: 2px;
+	background-color: red;
+	display: table;
+	width: 45%;
+}
+
+.fieldWithErrors input{
+	width:100%;
+}
+
+#errorExplanation{
+	border: 2px solid red;
+	padding: 7px;
+	padding-bottom: 12px;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+}
+
+#errorExplanation h2{
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 1em;
+	margin: -7px;
+	background-color: #c00;
+	color: #fff;
+}
+
+#errorExplanation p{
+	color: #A11;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+#errorExplanation ul li{	
+	font-size: .8em;
+}
+
+#mp3_flash {
+	margin-left: 128px;	
+}
+
+#episode_selector #postset_id{
+	width: 95%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+#episode_selector #select_button{
+	width: 95%;
+	margin-left: 5%;
+	margin-top: -3%;
+}
+
+.description_post{
+	margin-bottom: 30px;
+}
+
+/* The tag cloud stuff */
+.sbitagcloud a{
+	border: none;
+}
+.css1 { font-size: 0.8em; }
+.css2 { font-size: 0.95em; }
+.css3 { font-size: 1.1em; }
+.css4 { font-size: 1.25em; }
+.css5 { font-size: 1.4em; }
+.css6 { font-size: 1.55em; }
+.css7 { font-size: 1.7em; }
+.css8 { font-size: 1.85em; }
+

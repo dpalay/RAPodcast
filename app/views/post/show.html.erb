@@ -1,0 +1,9 @@
+<% title "Showing Post - #{@post.title}" %>
+<% for column in Post.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @post.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', :action => 'edit', :id => @post %> |
+<%= link_to 'Back', :controller => 'postset', :action => 'index' %>

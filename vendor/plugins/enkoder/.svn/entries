@@ -1,0 +1,67 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/enkoder
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+LICENSE
+file
+
+
+
+
+2008-01-10T18:07:57.390922Z
+67f0b213c348de2ae85d987f790f887d
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:57.395804Z
+9b20e32fd14c807970ea7c0d6be37911
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-01-10T18:07:57.399710Z
+3ca7e97fac5bd1dfcf5e3fbd668b2f43
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

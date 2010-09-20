@@ -1,0 +1,21 @@
+<div class="a_post">
+	<%="<a id='post_#{viewpost.id}'></a>"%>
+	<div class="post_header">
+		<div class="post_title">
+			<%= "<span class = '#{User.find(viewpost.user_id).span}'>" %>
+			<%= white_list viewpost.title %>
+			</span>
+			<% if logged_in? and current_user.is_admin%>
+				<%= link_to 'Edit', :controller => 'post', :action => 'edit', :id => viewpost.id%>
+			<%end%>
+		</div>
+		<div class="post_date"><%= viewpost.created_at.strftime("%m/%d/%y %I:%M %p")%></div>
+	</div>
+	<div class="post_text">
+		
+		<!--Give the span a class based on the span column of the user who wrote the post -->
+		<%= "<span class = '#{User.find(viewpost.user_id).span}'>" %>
+			<%= white_list viewpost.content%>
+		</span>
+	</div>
+</div>

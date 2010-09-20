@@ -1,0 +1,86 @@
+body {
+	background-color: #CCCCCC;
+}
+
+code{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+#Main_content {
+	margin:0pt auto;
+	padding:0pt;
+	position:relative;
+	text-align:left;
+	width:775px;
+	background-color: #EEE;
+}
+
+#Main_content a {
+	color: #EE6600;
+}
+
+#Main_content a:hover {
+	text-decoration: none;
+}
+
+#title {
+	
+}
+
+#extras {
+	font-family: "Lucida Sans Typewriter";
+	font-size: 10px;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+#header_title {
+	font-size: 25px;
+}
+
+#main_listing {
+	background-color: #EFEFEF;
+}
+
+#main_listing tr {
+	border-color: #222;
+	border-width: medium;
+	padding: 3px 3px 3px;
+}
+
+
+#posts{
+	width: 50%;
+	position: relative;
+	left: 200px;
+	background-color: #BBF;
+}
+
+.post_title{
+	float: left;
+}
+
+.post_date{
+	float: right;
+}
+
+.post_header{
+
+}
+
+#postset _date{
+	font-family: "Times New Roman";
+	font-size: 12px;
+}
+
+.a_post{
+}
+
+
+.andy {
+	color: green;
+}
+.dave {
+	color: #EE6600;
+}

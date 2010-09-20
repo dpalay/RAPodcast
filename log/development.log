@@ -1,0 +1,948 @@
+# Logfile created on Sun Sep 19 22:00:01 -0400 2010  [4;36;1mPostset Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: postsets: SELECT * FROM postsets LIMIT 1[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 22:02:24) [GET]
+  Session ID: 777039cd377163ef2f91d4edb24a3bb3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: postsets: SELECT * FROM postsets    LIMIT 1):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:345:in `catch_schema_changes'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:256:in `select'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:55:in `select_all'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:532:in `find_by_sql'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1233:in `find_every'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1227:in `find_initial'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:502:in `find'
+    /app/controllers/postset_controller.rb:21
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:202:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:465:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/inflector.rb:257:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1426:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;35;1mPostset Load (0.000000)[0m   [0mSQLite3::SQLException: no such table: postsets: SELECT * FROM postsets LIMIT 1[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 22:02:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: postsets: SELECT * FROM postsets    LIMIT 1):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:345:in `catch_schema_changes'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:256:in `select'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:55:in `select_all'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:532:in `find_by_sql'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1233:in `find_every'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1227:in `find_initial'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:502:in `find'
+    /app/controllers/postset_controller.rb:21
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:202:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:465:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/inflector.rb:257:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1426:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mPostset Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: postsets: SELECT * FROM postsets [0m
+  [4;35;1mSQL (0.007000)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.059000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.187000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to AddPublishedToPostset (1)
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: postset: ALTER TABLE postset ADD "published" boolean DEFAULT 'false'[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: links: DROP TABLE links[0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mCREATE TABLE links ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar(255) DEFAULT NULL, "user_id" integer DEFAULT 0, "title" varchar(60) DEFAULT NULL, "from_admin" boolean DEFAULT 'f', "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "postset_id" integer DEFAULT NULL, "used" boolean DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: miscs: DROP TABLE miscs[0m
+  [4;36;1mSQL (0.009000)[0m   [0;1mCREATE TABLE miscs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text DEFAULT NULL, "title" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: posts: DROP TABLE posts[0m
+  [4;36;1mSQL (0.109000)[0m   [0;1mCREATE TABLE posts ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "content" text DEFAULT NULL, "postset_id" integer DEFAULT NULL, "user_id" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: postsets: DROP TABLE postsets[0m
+  [4;36;1mSQL (0.007000)[0m   [0;1mCREATE TABLE postsets ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime DEFAULT NULL, "podcast_link" varchar(255) DEFAULT NULL, "shownotes_link" varchar(255) DEFAULT NULL, "title" varchar(255) DEFAULT NULL, "published" boolean DEFAULT NULL, "random_topic" varchar(255) DEFAULT NULL, "content" text DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: taggings: DROP TABLE taggings[0m
+  [4;36;1mSQL (0.139000)[0m   [0;1mCREATE TABLE taggings ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer DEFAULT NULL, "taggable_id" integer DEFAULT NULL, "taggable_type" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.094000)[0m   [0mCREATE INDEX "index_taggings_on_tag_id" ON taggings ("tag_id")[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type" ON taggings ("taggable_id", "taggable_type")[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: tags: DROP TABLE tags[0m
+  [4;36;1mSQL (0.037000)[0m   [0;1mCREATE TABLE tags ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: users: DROP TABLE users[0m
+  [4;36;1mSQL (0.199000)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "email" varchar(255) DEFAULT NULL, "password" varchar(255) DEFAULT NULL, "gender" boolean DEFAULT NULL, "birthdate" datetime DEFAULT NULL, "span" varchar(255) DEFAULT NULL, "is_admin" boolean DEFAULT NULL, "screen_name" varchar(255) DEFAULT NULL, "is_active" boolean DEFAULT NULL, "authorization_token" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.181000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.009000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.030000)[0m   [0mUPDATE schema_info SET version = 24[0m
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 22:10:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+    /app/controllers/postset_controller.rb:21
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:203:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:202:in `load_file'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:453:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:465:in `const_missing'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/inflector.rb:257:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1426:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets.title = 'Sample Postset 1' AND postsets.title = 'Sample Postset 1') LIMIT 1[0m
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets WHERE (postsets.podcast_link IS NULL AND postsets.podcast_link IS NULL) LIMIT 1[0m
+  [4;36;1mPostset Load (0.000000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets.created_at IS NULL) LIMIT 1[0m
+  [4;35;1mPostset Create (0.001000)[0m   [0mINSERT INTO postsets ("random_topic", "title", "published", "content", "created_at", "podcast_link", "shownotes_link") VALUES(NULL, 'Sample Postset 1', NULL, NULL, '2010-09-19 22:12:04', NULL, NULL)[0m
+  [4;35;1mPostset Load (0.006000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-19 22:12:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+Checking DNSBL 1.0.0.127.bl.spamcop.net
+Checking DNSBL 1.0.0.127.list.dsbl.org
+Checking DNSBL 1.0.0.127.sbl-xbl.spamhaus.org
+127.0.0.1 added to DNSBL passed cache
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets WHERE (id < 1) [0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.title):
+    /app/controllers/postset_controller.rb:8:in `index'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Languages/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets.title = 'Sample Postset 1' AND postsets.title = 'Sample Postset 1' AND postsets.id <> 1) LIMIT 1[0m
+  [4;35;1mPostset Load (0.000000)[0m   [0mSELECT * FROM postsets WHERE (postsets.podcast_link IS NULL AND postsets.podcast_link IS NULL AND postsets.id <> 1) LIMIT 1[0m
+  [4;36;1mPostset Load (0.000000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets.created_at = '2010-09-19 22:12:04' AND postsets.id <> 1) LIMIT 1[0m
+  [4;35;1mPostset Update (0.001000)[0m   [0mUPDATE postsets SET "podcast_link" = NULL, "created_at" = '2010-09-19 22:12:04', "published" = 't', "random_topic" = NULL, "shownotes_link" = NULL, "content" = NULL, "title" = 'Sample Postset 1' WHERE "id" = 1[0m
+  [4;35;1mPostset Load (0.002000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-19 22:12:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+
+
+NameError (undefined local variable or method `get_newest_postset' for #<PostsetController:0x6e07d64>):
+    /app/controllers/postset_controller.rb:7:in `index'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Languages/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mPostset Load (0.002000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-19 22:13:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+  [4;35;1mPostset Load (0.002000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+Rendering template within layouts/application
+Rendering postset/view
+  [4;36;1mPost Load (0.004000)[0m   [0;1mSELECT * FROM posts WHERE (posts.postset_id = 1) [0m
+  [4;35;1mTag Load (0.001000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Postset') AND (taggings.taggable_id = 1)) [0m
+Rendered tag/_taglist (0.00400)
+  [4;36;1mLink Load (0.001000)[0m   [0;1mSELECT * FROM links WHERE (links.postset_id = 1) [0m
+Rendered postset/_postsethelper (0.17400)
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.01700)
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00400)
+  [4;35;1mLink Load (0.004000)[0m   [0mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.39400 (2 reqs/sec) | Rendering: 0.37000 (93%) | DB: 0.01600 (4%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 22:13:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"808"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mPostset Load (0.002000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-19 23:11:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mPostset Load (0.000000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+Rendering template within layouts/application
+Rendering postset/view
+  [4;36;1mPost Load (0.001000)[0m   [0;1mSELECT * FROM posts WHERE (posts.postset_id = 1) [0m
+  [4;35;1mTag Load (0.001000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Postset') AND (taggings.taggable_id = 1)) [0m
+Rendered tag/_taglist (0.00100)
+  [4;36;1mLink Load (0.002000)[0m   [0;1mSELECT * FROM links WHERE (links.postset_id = 1) [0m
+Rendered postset/_postsethelper (0.07700)
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.00400)
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00200)
+  [4;35;1mLink Load (0.000000)[0m   [0mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.12900 (7 reqs/sec) | Rendering: 0.11300 (87%) | DB: 0.00800 (6%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 23:11:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"362"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mPostset Load (0.002000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-19 23:17:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mPostset Load (0.000000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+Rendering template within layouts/application
+Rendering postset/view
+  [4;36;1mPost Load (0.000000)[0m   [0;1mSELECT * FROM posts WHERE (posts.postset_id = 1) [0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Postset') AND (taggings.taggable_id = 1)) [0m
+Rendered tag/_taglist (0.00200)
+  [4;36;1mLink Load (0.001000)[0m   [0;1mSELECT * FROM links WHERE (links.postset_id = 1) [0m
+Rendered postset/_postsethelper (0.03500)
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.00400)
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00200)
+  [4;35;1mLink Load (0.001000)[0m   [0mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.21000 (4 reqs/sec) | Rendering: 0.19100 (90%) | DB: 0.00600 (2%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 23:17:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"318"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 23:17:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"586"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mPostset Load (0.005000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-20 10:55:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mPostset Load (0.000000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+Rendering template within layouts/application
+Rendering postset/view
+  [4;36;1mPost Load (0.000000)[0m   [0;1mSELECT * FROM posts WHERE (posts.postset_id = 1) [0m
+  [4;35;1mTag Load (0.002000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Postset') AND (taggings.taggable_id = 1)) [0m
+Rendered tag/_taglist (0.01200)
+  [4;36;1mLink Load (0.001000)[0m   [0;1mSELECT * FROM links WHERE (links.postset_id = 1) [0m
+Rendered postset/_postsethelper (0.05500)
+  [4;35;1mPostset Load (0.001000)[0m   [0mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.00500)
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00300)
+  [4;35;1mLink Load (0.000000)[0m   [0mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.13400 (7 reqs/sec) | Rendering: 0.11200 (83%) | DB: 0.01000 (7%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-20 10:55:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"151"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-20 10:55:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"543"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing UsersController#register (for 127.0.0.1 at 2010-09-20 10:56:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"action"=>"register", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/register
+  [4;36;1mPostset Load (0.002000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.05600)
+  [4;35;1mPostset Load (0.003000)[0m   [0mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00400)
+  [4;36;1mLink Load (0.000000)[0m   [0;1mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.35600 (2 reqs/sec) | Rendering: 0.34400 (96%) | DB: 0.00500 (1%) | 200 OK [http://localhost/signup]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-20 10:56:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"893"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing UsersController#register (for 127.0.0.1 at 2010-09-20 10:56:35) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"user"=>{"password_confirmation"=>"pascal121", "screen_name"=>"dpalay", "login"=>"dpalay", "password"=>"pascal121", "email"=>"dpalay@rapodcast.net"}, "commit"=>"Register!", "action"=>"register", "controller"=>"users"}
+  [4;35;1mUser Load (0.001000)[0m   [0mSELECT * FROM users WHERE (LOWER(users.login) = 'dpalay') LIMIT 1[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (LOWER(users.email) = 'dpalay@rapodcast.net') LIMIT 1[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (LOWER(users.screen_name) = 'dpalay') LIMIT 1[0m
+  [4;36;1mUser Create (0.003000)[0m   [0;1mINSERT INTO users ("authorization_token", "updated_at", "birthdate", "is_admin", "gender", "is_active", "screen_name", "login", "password", "created_at", "email", "span") VALUES(NULL, '2010-09-20 10:56:35', NULL, NULL, NULL, NULL, 'dpalay', 'dpalay', 'pascal121', '2010-09-20 10:56:35', 'dpalay@rapodcast.net', NULL)[0m
+Sent mail:
+ From: no_reply@rapodcast.net
+To: dpalay@rapodcast.net
+Subject: Confirm User Registration
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Thank you dpalay for registering with RAPodcast.net, your newest chosen source for all your tech and gaming news.
+In order to complete your activation, please click on the link below, or copy it into the URL bar of your chosen browser.  
+
+http://www.rapodcast.net/users/confirm_email/4e1107c137caf51a976b982260a64450c0a420e9  
+
+Thanks again for registering to RAPodcast.net
+- Dave and Andy
+Redirected to http://localhost:3000/index.html
+Completed in 3.37100 (0 reqs/sec) | DB: 0.00400 (0%) | 302 Found [http://localhost/signup]
+  [4;35;1mPostset Load (0.002000)[0m   [0mSELECT * FROM postsets LIMIT 1[0m
+
+
+Processing PostsetController#index (for 127.0.0.1 at 2010-09-20 10:56:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiAdZVc2VyIGRwYWxheSBjcmVhdGVkISBXZSBoYXZl%0AIHNlbnQgYW4gZW1haWwgdG8gdGhlIGFkZHJlc3MgcHJvdmlkZWQgdG8gY29u%0AZmlybSB5b3VyIHJlZ2lzdHJhdGlvbi4gUGxlYXNlIGNsaWNrIG9uIHRoZSBs%0AaW5rIHByb3ZpZGVkIGluIHRoZSBlbWFpbCB0byBmaW5pc2ghICBJZiB5b3Ug%0AZG9uJ3Qgc2VlIHRoZSBlbWFpbCwgcGxlYXNlIGNoZWNrIHlvdXIgc3BhbSBm%0Ab2xkZXIuBjoKQHVzZWR7BjsGVA%3D%3D--1039234e5f28de8ca6308eceb8c64377ab3d1313
+  Parameters: {"action"=>"index", "controller"=>"postset"}
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM postsets [0m
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets LIMIT 1[0m
+Rendering template within layouts/application
+Rendering postset/view
+  [4;35;1mPost Load (0.001000)[0m   [0mSELECT * FROM posts WHERE (posts.postset_id = 1) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Postset') AND (taggings.taggable_id = 1)) [0m
+Rendered tag/_taglist (0.00100)
+  [4;35;1mLink Load (0.000000)[0m   [0mSELECT * FROM links WHERE (links.postset_id = 1) [0m
+Rendered postset/_postsethelper (0.03700)
+  [4;36;1mPostset Load (0.001000)[0m   [0;1mSELECT * FROM postsets WHERE (postsets."published" = 't') ORDER BY created_at DESC[0m
+Rendered postset/_selector (0.00500)
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM postsets [0m
+Rendered tag/_search (0.00200)
+  [4;36;1mLink Load (0.001000)[0m   [0;1mSELECT * FROM links WHERE (links."postset_id" = '-1') LIMIT 1[0m
+Completed in 0.25700 (3 reqs/sec) | Rendering: 0.24200 (94%) | DB: 0.00700 (2%) | 200 OK [http://localhost/index.html]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-20 10:56:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6deca28294a50c13d99e32c792574b192ef8ff3
+  Parameters: {"1"=>nil}
+
+
+ActionController::RoutingError (No route matches "/podcasts/" with {:method=>:get}):
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Languages/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Languages/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /script/server:3
+    -e:1:in `load'
+    -e:1
+
+Rendering C:/Languages/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)

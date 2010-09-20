@@ -1,0 +1,55 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/1.0
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:59.111515Z
+6fb76df66467ca9c437ac4554af7f25e
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-01-10T18:07:59.114444Z
+7020af7a4c2d142503c3a16f38f82f8d
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

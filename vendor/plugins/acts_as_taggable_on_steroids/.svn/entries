@@ -1,0 +1,97 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/acts_as_taggable_on_steroids
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-01-10T18:07:58.558816Z
+e96aa72bfd70842b3f0e8cf2db0cc343
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:58.563698Z
+c2e0cc65fe55dfa1de53b6d73ea103ee
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-01-10T18:07:58.566628Z
+e5acbcf38c6deef657bd71d2293a9694
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+generators
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-01-10T18:07:58.574440Z
+4143f4eef4987df3fdaaa8ce839a5d18
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+README
+file
+
+
+
+
+2008-01-10T18:07:58.577369Z
+9fbaf58e59bc6c32aa824999bdb3d290
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

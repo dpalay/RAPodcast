@@ -1,0 +1,100 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/acts_as_taggable_on_steroids/lib
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+tags_helper.rb
+file
+
+
+
+
+2008-01-10T18:07:58.320550Z
+edad8370d0bc78ce4fa5a7ca77550220
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+tagging.rb
+file
+
+
+
+
+2008-01-10T18:07:58.325432Z
+83bce3dd703ad9f42e0ef326b3f1d02f
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+tag_counts_extension.rb
+file
+
+
+
+
+2008-01-10T18:07:58.328362Z
+6412369ec643a2e413a93754077cac61
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+acts_as_taggable.rb
+file
+
+
+
+
+2008-01-10T18:07:58.354727Z
+39c6af39dc9b9f6037a68d2cf72f006c
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+tag_list.rb
+file
+
+
+
+
+2008-01-10T18:07:58.360586Z
+03c45d9b4b634a10278db67659fac970
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+tag.rb
+file
+
+
+
+
+2008-01-10T18:07:58.364492Z
+0b5dfc9307350cb9f94edb8412923077
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

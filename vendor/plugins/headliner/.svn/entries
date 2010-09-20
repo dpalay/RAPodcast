@@ -1,0 +1,82 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/headliner
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+test
+dir
+
+LICENSE
+file
+
+
+
+
+2008-01-10T18:07:58.773646Z
+86a3c6fe874dfbf683a1e9366b0fd305
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+Rakefile
+file
+
+
+
+
+2008-01-10T18:07:58.777552Z
+e10977bfe93496071ff73604d3f3ad2b
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:58.781458Z
+dbf2fac83f54beda9b13c48100cf3a6a
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-01-10T18:07:58.789270Z
+ed8d8fbedde20edb4f3af49c9e3ccd19
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

@@ -1,0 +1,25 @@
+<li>
+	<% if logged_in? -%>
+	  <% if (linklist.user_id == current_user.id) || admin?  -%>
+	    <%= link_to "X", {:controller => 'link', 
+					      :action => 'destroy', 
+					      :id => linklist}, 
+					      :confirm => 'Are you sure?', 
+					      :method => :post  %>
+	  <% end -%> 
+	<% end -%> 
+	<% if linklist.user_id == 0 -%>
+	  <span class="not_admin">
+	  <%= link_to white_list(linklist.title), linklist.url, 
+					   {:title => "Submitted by Anonymous"}%>
+	<% else -%>
+	  <% if linklist.from_admin -%>
+	    <span class="from_admin">
+	  <% else -%>
+	    <span class="not_admin">
+   	  <% end -%>
+  	  <%= link_to white_list(linklist.title), linklist.url, 
+					   {:title => "Submitted by #{linklist.user.login}", :target => "_blank"}%>
+	<% end -%>
+	</span>
+</li> 

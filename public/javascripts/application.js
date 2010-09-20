@@ -1,0 +1,13 @@
+// Place your application-specific JavaScript functions and classes here
+// This file is automatically included by javascript_include_tag :defaults
+
+Ajax.Responders.register({
+  onCreate: function() {
+    if($('loader_icon') && Ajax.activeRequestCount>0)
+      Effect.Appear('loader_icon',{duration:0.5,queue:'end'});
+  },
+  onComplete: function() {
+    if($('loader_icon') && Ajax.activeRequestCount==0)
+      Effect.Fade('loader_icon',{duration:0.5,queue:'end'});
+  }
+});

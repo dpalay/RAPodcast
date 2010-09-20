@@ -1,0 +1,33 @@
+<h2><%= "Editing User's Information"%></h2>
+<%= error_messages_for 'users'%>
+<% form_for :user do |form|%>
+	<fieldset>
+		<legend>Email</legend>
+		<div class="form_row">
+			<label for="email">Email:</label>
+			<%= form.text_field :email%>
+		</div>
+		<%= hidden_field_tag "attribute", "email", :id => nil%>
+		<%= submit_tag "Update", :class => 'submit'%>
+	</fieldset>
+<%end%>
+
+<% form_for :user do |form|%>
+	<fieldset>
+		<legend>Password</legend>
+		<div class="form_row">
+			<label for="Current Password">Current Password:</label>
+			<%= form.password_field :current_password%>
+		</div>
+		<div class="form_row">
+			<label for="New Password">New Password:</label>
+			<%= form.password_field :password, :field_title => "New Password"%>
+		</div>
+		<div class="form_row">
+			<label for="Confirm Password">Confirm Password:</label>
+			<%= form.password_field :password_confirmation, :field_title => "Confirm"%>
+		</div>
+		<%= hidden_field_tag "attribute", "password", :id => nil%>
+		<%= submit_tag "Update", :class => 'submit'%>
+	</fieldset>
+<%end%>

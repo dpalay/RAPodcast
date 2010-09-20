@@ -1,0 +1,59 @@
+<div id="postsetcontent">
+	<div id="news">
+		<div id="header">
+			<div id="header_title"> 
+			<div id="header_podcast_link">
+				<h1>
+					<%= link_to @postset.title, 
+						"http://rapodcast.net/podcasts/#{@postset.podcast_link}" %>
+				</h1>
+			</div>
+			</div>
+			<div id="mp3_flash">
+				<embed
+				src="/embed/mediaplayer.swf"
+				width="256"
+				height="20"
+				allowscriptaccess="always"
+				allowfullscreen="true"
+				flashvars=<%="height=20&width=256&file=/podcasts/#{@postset.podcast_link}&frontcolor=0x837560&lightcolor=0xEE6600"%>
+				/>
+			</div>	
+			<div id="header_random_topic">
+				Random Topic: 
+				<% unless @postset.random_topic == ''%>
+					<%=@postset.random_topic%>
+				<%else%>
+					No random topic listed
+				<%end%>
+			</div>
+		</div>
+		<div id="posts">
+			<% if admin? -%>
+				<h2> <%= link_to 'New Post', :controller => 'post', :action => 'new'%> </h2>
+			<% end -%>
+			<br/>
+			<div class="description_post">
+				<h3>Description:</h3>
+					<span class="dave"><%= @postset.content %></span>
+			</div>
+			<%= render :partial => 'viewpost', :collection => @postset.posts%>
+			<br/>
+		</div>
+		<div id="header_tags">
+				Tags for this episode: <%= render :partial => "tag/taglist", :locals => {:tags => @postset.tag_list}%>
+			</div>
+		<hr/>
+		<h3>Links that were suggested for this episode</h3>
+		<div id="linklist">
+			<ul>
+			  <%= render :partial => 'linklist', :collection => @postset.links%>
+			</ul>
+		</div>
+		<hr/>
+		<div id="postset_date">
+			Created at: <%= @postset.created_at.strftime("%a, %B %d %Y - %I:%M:%S %p")%><br/>
+			Rendered at: <%= Time.now.strftime("%a, %B %d %Y - %I:%M:%S %p") %>
+		</div>
+	</div>
+</div>

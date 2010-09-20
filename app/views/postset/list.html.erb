@@ -1,0 +1,28 @@
+<% title "Episode List" %>
+<div id="title"><h1>Listing postsets</h1></div>
+<div id="main_listing">
+<table>
+  <tr>
+  <% for column in Postset.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  	<th>Post Count</th>
+  </tr>
+  
+<% for postset in @postset %>
+  <tr>
+  <% for column in Postset.content_columns %>
+    <td><%=h postset.send(column.name) %></td>
+  <% end %>
+  	<td style="text-align: right;"><%= postset.posts.count%></td>
+    <td><%= link_to 'Show', :action => 'show', :id => postset %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => postset %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => postset }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New postset', :action => 'new' %>

@@ -1,0 +1,52 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/redirect_routing/test
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+test_helper.rb
+file
+
+
+
+
+2008-01-10T18:07:57.496384Z
+7d1959686165926c3611183c322a8179
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+redirect_routing_test.rb
+file
+
+
+
+
+2008-01-10T18:07:57.500290Z
+d10725dc896a1d2b227a4387022d1c0a
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

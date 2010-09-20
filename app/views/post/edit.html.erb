@@ -1,0 +1,10 @@
+<% title "Editing Post - #{@post.title}" %>
+<h1>Editing post</h1>
+
+<% form_tag :action => 'update', :id => @post do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Edit' %>
+<% end %>
+
+<%= link_to 'Show', :action => 'show', :id => @post %> |
+<%= link_to 'Back', :controller => 'postset', :action => 'index' %>

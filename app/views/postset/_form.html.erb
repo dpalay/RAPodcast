@@ -1,0 +1,23 @@
+<%= error_messages_for 'postset' %>
+
+<!--[form:postset]-->
+<p><label for="postset_title">Title</label><br/>
+<%= text_field 'postset', 'title' %></p>
+
+<p><label for="postset_podcast_link">Podcast link</label><br/>
+<%= text_field 'postset', 'podcast_link'  %></p>
+
+<p><label for="postset_random_topic">Random Topic</label><br/>
+<%= text_field 'postset', 'random_topic'%></p>
+
+<p><label for="postset_content">Description</label><br/>
+<%= text_area 'postset', 'content'%>
+
+<p><label for="postset_tags">Tags:</label><br/>
+<%= text_area 'postset', 'tag_list' %></p>
+
+<p><label for="postset_published">Published</label><br/>
+<%= check_box 'postset', 'published'%></p>
+
+<!--[eoform:postset]-->
+

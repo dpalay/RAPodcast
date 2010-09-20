@@ -1,0 +1,70 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/white_list
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-01-10T18:07:58.961134Z
+f0e1b06a7ef9e833e509a3abec21ea90
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+init.rb
+file
+
+
+
+
+2008-01-10T18:07:58.965040Z
+82441515a065c4c238b3b72d8224fffb
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-01-10T18:07:58.968946Z
+75a1520453ca762e7b851e255edb2b3f
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

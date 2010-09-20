@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<itunes:owner>
+  <itunes:name>David Palay</itunes:name>
+  <itunes:email>dpalay@rapodcast.net</itunes:email>
+</itunes:owner>
+		<itunes:category text="Games &amp; Hobbies">
+		<itunes:category text="Other Games" />
+		</itunes:category>
+		<itunes:author>Andy Low and David Palay </itunes:author>
+		<itunes:keywords>random, access, rapodcast, geek, podcast, nerd, technology, news, interviews</itunes:keywords>
+		<itunes:explicit>yes</itunes:explicit>
+          <title>
+Random Access Podcast
+          </title>
+          <link>
+          http://rapodcast.net
+          </link>
+          <description>
+The Random Access Podcast
+          </description>
+          <lastBuildDate>
+Fri, 15 Sep 2006 15:29:58 -0400
+          </lastBuildDate>
+          <language>
+en
+          </language>
+          <copyright>
+David Palay and Andy Low, 2006-2007
+          </copyright>
+
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR59</guid>
+<pubDate>
+Mon, 14 Apr 2008 11:00:00 -0400</pubDate>
+<title>Episode 56 - Laid Back</title>
+<description>Your weekly tech update.  A cameo appearence by Conspiracy Theory Dave...</description>
+<enclosure url="http://www.rapodcast.net/podcasts/EP56.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/EP56.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR58</guid>
+<pubDate>
+Sat, 5 Apr 2008 11:00:00 -0400</pubDate>
+<title>Episode 55 - Meta-Title</title>
+<description>Holy crap, a random set.  Lots of apple actually.  </description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep55.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep55.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR57</guid>
+<pubDate>
+Sun, 30 Mar 2008 11:00:00 -0400</pubDate>
+<title>Episode 54 - Laundry List</title>
+<description>Dave has lots and lots of laundry.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep54.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep54.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR56</guid>
+<pubDate>
+Fri, 21 Mar 2008 11:00:00 -0400</pubDate>
+<title>Episode 53 - NCAA Madness!!!!</title>
+<description>Sports!  And you thought you had heard the end of it.  Guess again.  </description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep53.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep53.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR55</guid>
+<pubDate>
+Sun, 16 Mar 2008 11:00:00 -0400</pubDate>
+<title>Episode 52 - Andy's Time of the Month</title>
+<description>NPD numbers are out.  Andy goes nuts with them.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep52.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep52.mp3</link>
+</item>		 
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR54</guid>
+<pubDate>
+Sun, 9 Mar 2008 11:00:00 -0400</pubDate>
+<title>Episode 51 - New Continued Releases</title>
+<description>The sequel plague hitting the movie theaters seems to be hitting software as well.  Thankfully, software tends to IMPROVE with new versions, as opposed to movies...</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep51.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep51.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR53</guid>
+<pubDate>
+Tue, 4 Mar 2008 11:00:00 -0400</pubDate>
+<title>Episode 50 - We're Back</title>
+<description>We're back.  Finally.  It's been about two months since we've recorded, but Andy and I have finally started to get back onto a  regular schedule.  </description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep50.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep50.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR52</guid>
+<pubDate>
+Wed, 16 Jan 2008 11:00:00 -0400</pubDate>
+<title>
+Episode 49 - A Long Time Coming</title>
+<description>Among other things, a brief recap of the entire year.  Say goodbye to 2007.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep49.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep49.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR51</guid>
+<pubDate>
+Fri, 07 Dec 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 48 - No</title>
+<description>Andy uses some B.S. logic, and he's plain wrong.  Also, new forums up.  See the link from our main page.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep48.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep48.mp3</link>
+</item>		 
+
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR50</guid>
+<pubDate>
+Sun, 02 Dec 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 47 - Outro</title>
+<description>Apparently, we have an outro now, in addition to our intro.  Lots of stuff considering a slow news week.  More numbers, mostly, and a bit about Sony and JT.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep47.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep47.mp3</link>
+</item>		 
+
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR50</guid>
+<pubDate>
+Mon, 19 Nov 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 46 - All Hail Ball</title>
+<description>NPD numbers are out.  Lots of rambling about random topics (hey, it's in the name).  Random Topic: Create your own Team Fortress 2 level</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep46.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep46.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR49</guid>
+<pubDate>
+Mon, 12 Nov 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 45 - The Bet</title>
+<description>The bet gets settled.... or not.  Lots of tech news this week, as we ramp up to a huge batch of video game releases for the holidays. 
+Oh, and we have a Steam Group!
+Random Topic:  Most Versatile TF2 class</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep45.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep45.mp3</link>
+</item>		 
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR48</guid>
+<pubDate>
+Sun, 4 Nov 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 44 - Trick or Treat</title>
+<description>Happy Halloween!!</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep44.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep44.mp3</link>
+</item>		 
+
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR47</guid>
+<pubDate>
+Mon, 22 Oct 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 42 - The Answer</title>
+<description>Our forty-second episode.  It is, of course, the answer.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep42.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep42.mp3</link>
+</item>		 
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR46</guid>
+<pubDate>
+Wed, 17 Oct 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 41 - The Orange Box</title>
+<description>ORANGE BOX</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep41.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep41.mp3</link>
+</item>		 
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR43</guid>
+<pubDate>
+Wed, 10 Oct 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 40 - Screwups</title>
+<description>We have a del.icio.us page now!  Come see what we're going to talk about at http://del.icio.us/RAPodcast</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep40-screwups.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep40-screwups.mp3</link>
+</item>		  
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR44</guid>
+<pubDate>
+Mon, 01 Oct 2007 11:00:00 -0400</pubDate>
+<title>
+Episode 39 - Chaos</title>
+<description>I'm not too satisfied with this one, but Andy says it's what he heard on his end.  I'm not sure we're going to be doing skype again for a while, but it was a neat experiment.  
+Anyways, here you go!
+
+Special Guest:  Moe_Fwacky</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Ep39.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Ep39.mp3</link>
+</item>		  
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR42</guid>
+<pubDate>
+Sat, 22 Sep 2007 01:00:00 -0400</pubDate>
+<title>
+Episode 38 - Conspiracy Theory</title>
+<description>Andy's got computer problems this time. 
+A small little product called the iPhone gets discussed, perhaps you have heard of it.
+Random Topic:  Best Video Game RPG</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Episode%2038%20-%20Conspiracy%20Theory.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Episode%2038%20-%20Conspiracy%20Theory.mp3</link>
+</item>		  
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR41</guid>
+<pubDate>
+Sat, 15 Sep 2007 22:00:00 -0400</pubDate>
+<title>
+Episode 37 - Addiction</title>
+<description>We actually have news!  First off, Andy and I both somehow suffered the Red Ring of Death within a week of eachother.  Creepy.
+Random Topic:  What're you addicted to</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Episode%2037%20-%20Addiction.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Episode%2036%20-%20Addiction.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR40</guid>
+<pubDate>
+Sat, 08 Sep 2007 05:00:00 -0400</pubDate>
+<title>
+Episode 36 - Back From PAX</title>
+<description>GAH!!  I'm STILL burning at Appalachian State's win against the University of Michigan.  
+Huge recap about the Penny Arcade Expo and some lightening-round gamer news!
+We're back!!!</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Episode%2036%20-%20Back%20From%20PAX.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Episode%2036%20-%20Back%20From%20Pax.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR39</guid>
+<pubDate>
+Tue, 07 Aug 2007 22:00:00 -0400</pubDate>
+<title>
+Episode 35 - Back From Vacation</title>
+<description>Lots of little news this week, several scandals and people who really kind of screwed up.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/Episode%2035%20-%20Back%20From%20Vacation.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/Episode%2035%20-%20Back%20From%20Vacation.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR38</guid>
+<pubDate>
+Sun, 29 Jul 2007 22:00:00 -0400</pubDate>
+<title>
+Episode 34 - Andy Named This Episode</title>
+<description>We, for some odd reason, decided to record this episode with Mark from the CCST. The three of us talk about E3, Peter Moore... and this thing called the CCST.</description>
+<enclosure url="http://www.rapodcast.net/podcasts/ep34.mp3" length="31950976" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/ep34.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR37</guid>
+<pubDate>
+Fri, 20 Jul 2007 04:31:57 -0400</pubDate>
+<title>
+Episode 33 - Segue</title>
+<description>Omegathon games have been announced!</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-07-18%20-%20Episode%2033%20-%20Segue.mp3" length="31950976" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net//podcasts/2007-07-18%20-%20Episode%2033%20-%20Segue.mp3</link>
+</item>
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR36</guid>
+<pubDate>
+Fri, 13 Jul 2007 14:50:20 -0400</pubDate>
+<title>
+Episode 32 - So Tired</title>
+<description>
+&lt;p&gt;Oh God, So Tired....&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-07-08%20-%20Episode%2032%20-%20So%20Tired.mp3" length="28502144" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/2007-07-08%20-%20Episode%2032%20-%20So%20Tired.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR35</guid>
+<pubDate>
+Fri, 29 Jun 2007 01:30:06 -0400</pubDate>
+<title>
+Episode 31 - Omega-AWESOMENESS</title>
+<description>
+&lt;p&gt;Andy's media.
+Dave is Omeganaut.
+More info:  www.pennyarcadeexpo.com&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-06-28%20-%20Episode%2031%20-%20Omega-AWESOMENESS.mp3" length="20177024" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/2007-06-28%20-%20Episode%2031%20-%20Omega-AWESOMENESS.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR34</guid>
+<pubDate>
+Wed, 20 Jun 2007 18:40:44 -0400</pubDate>
+<title>
+Episode 30 - i(Dislike)Macs</title>
+<description>
+&lt;p&gt;Mac episode!  AHHH!!!&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-06-19%20-%20Episode%2030%20-%20i(Dislike)Macs.mp3" length="0" type="text/html; charset=iso-8859-1" />
+<link>
+http://www.rapodcast.net/podcasts/2007-06-19%20-%20Episode%2030%20-%20i(Dislike)Macs.mp3</link>
+</item>
+
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR45</guid>
+<pubDate>
+Mon, 18 Jun 2007 01:31:31 -0400</pubDate>
+<title>
+Episode 29 - A Random Title</title>
+<description>
+&lt;p&gt;Car woes,
+Steam numbers,
+and a completely dull title&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-06-17%20-%20Episode%2029%20-%20Random%20Title.mp3" length="17739776" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/2007-06-17%20-%20Episode%2029%20-%20Random%20Title.mp3</link>
+</item>
+
+		  <item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR33</guid>
+<pubDate>
+Fri, 15 June 2007 00:00:25 -0400</pubDate>
+<title>
+Episode 28 - Arguments</title>
+<description>
+&lt;p&gt;Dave insults one of Andy's favorite authors, and it goes on from there...&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/20070612 - Episode 28 - Arguements.mp3" length="0" type="text/html; charset=iso-8859-1" />
+<link>
+http://www.rapodcast.net/podcasts/20070612 - Episode 28 - Arguements.mp3</link>
+</item>
+		  <item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR32</guid>
+<pubDate>
+Wed, 30 May 2007 17:39:09 -0400</pubDate>
+<title>
+Episode 27 - Protoss, Zerg, and Terran, Oh My!</title>
+<description>
+&lt;p&gt;Starcraft 2 baby!&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-05-29%20-%20Episode%2027%20-%20Protoss,%20Zerg,%20and%20Terran,%20Oh%20My.mp3" length="0" type="audio/x-mpeg" />
+<link>
+http://www.rapodcast.net/podcasts/2007-05-29%20-%20Episode%2027%20-%20Protoss,%20Zerg,%20and%20Terran,%20Oh%20My.mp3</link>
+</item>
+
+<item>
+<guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR31</guid>
+<pubDate>
+Tue, 22 May 2007 21:09:55 -0400</pubDate>
+<title>
+Episode 26 - The Return of the Head to Head</title>
+<description>
+&lt;p&gt;And you thought it was gone...&lt;/p&gt;</description>
+<enclosure url="http://www.rapodcast.net/podcasts/2007-05-14 - Episode 26 - The Return of the Head to Head.mp3" length="0" type="text/html; charset=iso-8859-1" />
+<link>
+http://www.rapodcast.net/podcasts/2007-05-14 - Episode 26 - The Return of the Head to Head.mp3</link>
+</item>
+
+		<item>
+		<guid isPermaLink="false">
+		urn:x-1and1-com:feed:aspCWhKR30</guid>
+		<pubDate>
+		Sun, 13 May 2007 04:07:06 -0400</pubDate>
+		<title>
+		Episode 25 - I killed the Laptop</title>
+		<description>
+		My power is the touch of death.
+
+		D&amp;D spiel followed by a huge recap of tech news!</description>
+		<enclosure url="http://rapodcast.net/podcasts/2007-04-24%20-%20Episode%2025%20-%20I%20killed%20the%20Laptop.mp3" length="27105280" type="audio/x-mpeg" />
+		<link>
+		http://rapodcast.net/podcasts/2007-04-24%20-%20Episode%2025%20-%20I%20killed%20the%20Laptop.mp3</link>
+		</item>
+
+
+
+		  <item>
+
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR28</guid>
+
+			<pubDate>Mon, 09 Apr 2007 00:43:37 -0400</pubDate>
+
+			<title>
+			Episode 24 - The Sleeping Giant</title>
+			<description>
+With the story like this: http://www.mlive.com/news/aanews/index.ssf?/base/news-22/1175325176174040.xml&amp;coll=2
+			and this: 
+			http://www.mlive.com/news/aanews/index.ssf?/base/news-22/1175928420156530.xml&amp;coll=2
+			happening in our own backyard, Andy and I did some digging.  The result?  An interview with the young Mr. Wigal himself.</description>
+<enclosure url="http://feeds.feedburner.com/~r/Rapodcast/~5/107641632/2007-04-09%20-%20Episode 24%20-%20The%20Sleeping%20Giant.mp3" length="0" type="text/html; charset=iso-8859-1" />
+			
+			<link>
+http://feeds.feedburner.com/~r/Rapodcast/~3/107641632/2007-04-09%20-%20Episode 24%20-%20The%20Sleeping%20Giant.mp3</link>
+</item>
+
+		  <item>
+			<guid isPermaLink="false">
+			urn:x-1and1-com:feed:aspCWhKR27</guid>
+			<pubDate>
+			Sun, 08 Apr 2007 17:40:32 -0400</pubDate>
+			<title>
+			Episode 23 - The White Board</title>
+			<description>
+			&lt;p&gt;W00t!  Andy brought over a white board.  
+			Even more W00t!  Jack Thompson!  Hurrah.&lt;/p&gt;</description>
+			<enclosure url="http://rapodcast.net/podcasts/2007-03-21%20-%20Episode%2023%20-%20The%20White%20Board.mp3" length="30455808" type="audio/x-mpeg" />
+			<link>
+			http://rapodcast.net/podcasts/2007-03-21%20-%20Episode%2023%20-%20The%20White%20Board.mp3</link>
+		  </item>
+
+		  <item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR26</guid>
+			<pubDate>Sat, 31 Mar 2007 17:01:58 -0400</pubDate>
+			<title>Episode 22 - Pi Dubs</title>
+			<description>Happy Pi day everyone!
+			Did you do a pi dance at 1:59 am? 
+			Get it, 3.14159?</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-03-14%20-%20Episode%2022%20-%20Pi%20Dubs.mp3" length="29952000" type="audio/x-mpeg" />
+			<link>http://www.rapodcast.net/podcasts/2007-03-14%20-%20Episode%2022%20-%20Pi%20Dubs.mp3</link>
+		</item>
+
+		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR24</guid>
+			<pubDate>Wed, 14 Mar 2007 19:11:11 -0500</pubDate>
+			<title>Episode 21 - Spring Break</title>
+			<description>Yahoooo!  Spring break! Yeahhhh!
+			RPG talk and a spring break summary
+			Breaking news!  (when we recorded) Comp USA store closings
+			How did Sony screw up this week?
+			WoW talk (been a looonnng time)
+			And, of course, the random topic:  Making a video game.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-02-28 - Episode 21 - Spring Break.mp3" length="0" type="text/html; charset=iso-8859-1"/>
+			<link>http://www.rapodcast.net/podcasts/2007-02-28 - Episode 21 - Spring Break.mp3</link>
+		</item>
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR22</guid>
+			<pubDate>Tue, 20 Feb 2007 10:52:06 -0500</pubDate>
+			<title>Episode 20 - Movie Madness</title>
+			<description>A surprise opening!  Boo-ya!  Welcome back everyone, sorry it's been so long since our last recording.  In the Episode:
+			How Sony Screwed Up!  (Again)
+			The great return of Jack Thompson.
+			Lots and lots of movie titles in a rather random (go figure) diversion from the norm.
+			Random Topic: Paper clips?</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-02-20%20-%20Episode%2020%20-%20Movie%20Madness.mp3" length="30140416" type="audio/x-mpeg" />
+			<link>http://www.rapodcast.net/podcasts/2007-02-20%20-%20Episode%2020%20-%20Movie%20Madness.mp3</link>
+			</item>
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR21</guid>
+			<pubDate>Sun, 11 Feb 2007 21:07:42 -0500</pubDate>
+			<title>Episode 19 - The Big Three</title>
+			<description>Next Gen Roundup!  News from the three biggies: Microsoft, Sony, and Nintendo.  Some other fun stuff thrown into it too.
+			Random Topic:  Eating Gluten!! W00t!</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-02-11%20-%20Episode%2019%20-%20The%20Big%20Three.mp3" length="27189248" type="audio/x-mpeg" />
+			<link>http://www.rapodcast.net/podcasts/2007-02-11%20-%20Episode%2019%20-%20The%20Big%20Three.mp3</link>
+			</item>
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR20</guid>
+			<pubDate>Sun, 11 Feb 2007 20:55:07 -0500</pubDate>
+			<title>Episode 18 - The Witching Hour</title>
+			<description>We return after a long absence with Episode 18!  And yes, Dave has hung out with witches.  No, he has not partaken in any rituals.  We go back to our roots with the randomness in this one, so enjoy!
+			Random Topic: Reasoning behind Fellowship of the Rings.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-02-11%20-%20Episode%2018%20-%20The%20Witching%20Hours.mp3" length="28108800" type="audio/x-mpeg" />
+			<link>
+			http://www.rapodcast.net/podcasts/2007-02-11%20-%20Episode%2018%20-%20The%20Witching%20Hours.mp3</link>
+			</item>
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR19</guid>
+			<pubDate>Wed, 31 Jan 2007 23:24:51 -0500</pubDate>
+			<title>Episode 17 - CES Fest</title>
+			<description>Lots of info with CES!  The show had nothing really big, but Macworld was at hte same time.  We talk about both.  Random Topic:  C++ v. Java</description>
+			<enclosure url="http://rapodcast.net/podcasts/2007-01-30%20-%20Episode%2017%20-%20CES%20Fest.mp3" length="27680768" type="audio/x-mpeg" />
+			<link>http://rapodcast.net/podcasts/2007-01-30%20-%20Episode%2017%20-%20CES%20Fest.mp3</link>
+			</item>
+
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR18</guid>
+			<pubDate>Thu, 18 Jan 2007 17:00:23 -0500</pubDate>
+			<title>Episode 16 - Goatse 4 All</title>
+			<description>Internet Hijinks and the new gamer conference. Give it a listen.
+WARNING:  Contains references to NSFW topics</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-01-18%20-%20Episode%2013%20-%20Goatse%204%20All.mp3" length="25458816" type="audio/x-mpeg" />
+			<link>http://www.rapodcast.net/podcasts/2007-01-18%20-%20Episode%2013%20-%20Goatse%204%20All.mp3</link>
+			</item>
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR17</guid>
+			<pubDate>Tue, 09 Jan 2007 01:46:15 -0500</pubDate>
+			<title>Episode 15 - Kosher</title>
+			<description>Andy doesn't know the Picard Song!!  He fails.  Dave tries to sing it for him.  He fails too.  Random Topic:  Are humans red meat / kosher?   (This was seriously asked to me by a person I know... long story)</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-1-08%20-%20Episode%2015%20-%20Kosher.mp3" length="2317" type="text/html" />
+			<link>http://www.rapodcast.net/podcasts/2007-1-08%20-%20Episode%2015%20-%20Kosher.mp3</link>
+			</item>
+
+			<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR16</guid>
+			<pubDate>Thu, 04 Jan 2007 23:18:30 -0500</pubDate>
+			<title>Episode 14 - Wii Have the Power</title>
+			<description>Monkeys in tuxedos!  Andy and I do some random ramblings, go the news.  Some big things.  Random Topic: Time Loops</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2007-01-02 - Episode 14 - Wii Have the Power.mp3" length="0" type="text/html; charset=iso-8859-1" />
+			<link>http://www.rapodcast.net/podcasts/2007-01-02 - Episode 14 - Wii Have the Power.mp3</link>
+			</item>
+
+          	<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR15</guid>
+			<pubDate>Tue, 12 Dec 2006 00:30:51 -0500</pubDate>
+			<title>Episode 13 - Wii-actions</title>
+			<description>Wiiiiiiiiiiiiiiiii.......  and plenty of it.  Wii gots us our wiis!  Hear all about it!  And... some other stuff I suppose....  Like Walruses.. walrusai....  whatever.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-12-10 -  Episode 13 - Wii-actions.mp3" length="0" type="text/html; charset=iso-8859-1"/>
+			<link>http://www.rapodcast.net/podcasts/2006-12-10 -  Episode 13 - Wii-actions.mp3</link>
+			</item>
+
+          	<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR14</guid>
+			<pubDate>Tue, 05 Dec 2006 03:12:41 -0500</pubDate>
+			<title>Episode 12 - Thanksgiving Recap</title>
+			<description>Serious discussion about the intro, but that's pretty much the only seriousness.  
+Lots of Wii talk, and the Random Topic:  Boba Fett.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-12-05 -  Episode 12 - Thanksgiving Recap.mp3" length="0" type="text/html; charset=iso-8859-1"/>
+			<link>http://www.rapodcast.net/podcasts/2006-12-05 -  Episode 12 - Thanksgiving Recap.mp3</link>
+		</item>
+          		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR13</guid>
+			<pubDate>Thu, 30 Nov 2006 02:45:44 -0500</pubDate>
+			<title>Episode 11 - Culinary Delights</title>
+			<description>Recap of the TWL.  Scary shit with the launch of two new game consoles.  Finalization - sort of - of the head2head competition.  Random Topic: Gamer food.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-11-29 - Episode 11 - Culinary Delights.mp3" length="0" type="text/html; charset=iso-8859-1"/>
+			<link>http://www.rapodcast.net/podcasts/2006-11-29 - Episode 11 - Culinary Delights.mp3</link>
+		</item>
+          	<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR12</guid>
+			<pubDate>Sun, 19 Nov 2006 23:33:07 -0500</pubDate>
+			<title>Episode 10 - TLW: Three Letter Weekend</title>
+			<description>The Wii, PS3, 007, and many more.  Andy and Dave catch up on some upcoming game news and other hilarious hijinks.  </description>
+			<enclosure url="http://www.rapodcast.net//podcasts/2006-11-19%20-%20Episode%2010%20-%20TLW%20-%20Three%20Letter%20Weekend.mp3" length="27097216" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net//podcasts/2006-11-19%20-%20Episode%2010%20-%20TLW%20-%20Three%20Letter%20Weekend.mp3</link>
+		</item>
+		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR11</guid>
+			<pubDate>Sat, 11 Nov 2006 16:25:44 -0500</pubDate>
+			<title>Episode 9 - Election Day Extravaganza </title>
+			<description>Election day!  We spend a little time talking about politics (not much, honest).  And then there's some stuff about buying a laptop.
+Random Topic: Bruce Campbell</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-11-11 - Episode 9 - Election Day Extravaganza.mp3" length="0" type="text/html; charset=iso-8859-1"/>
+			<link>http://www.rapodcast.net/podcasts/2006-11-11 - Episode 9 - Election Day Extravaganza.mp3</link>
+		</item>          
+          		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR10</guid>
+			<pubDate>Sun, 05 Nov 2006 12:40:33 -0500</pubDate>
+			<title>Episode 8 - Greatness</title>
+			<description>Happy Halloween all! For your listening pleasure, we've started a "discussion" about what can be considered "Greatness".  Thus the title, clever eh?  Also, Batman v. Lex Luthor in WoW. </description>
+			<enclosure url="http://www.rapodcast.net//podcasts/2006-11-05%20-%20Episode%208%20-%20Greatness.mp3" length="26769536" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net//podcasts/2006-11-05%20-%20Episode%208%20-%20Greatness.mp3</link>
+		</item>
+          		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR9</guid>
+			<pubDate>Sun, 29 Oct 2006 07:14:48 -0500</pubDate>
+			<title>Episode 7 - The Sickness</title>
+			<description>*cough* *wheeze*  Listen to Dave's scratchy voice as he and Andy talk about tech news as well as our old friend Jack Thompson.  Oh, and there's a bit about knitting and driving a stick shift too.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-10-28%20-%20Episode%207%20-%20The%20Sickness.mp3" length="18399360" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net/podcasts/2006-10-28%20-%20Episode%207%20-%20The%20Sickness.mp3</link>
+		</item>
+          <item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR8</guid>
+			<pubDate>Sun, 22 Oct 2006 12:42:47 -0400</pubDate>
+			<title>Episode 6 - Sports Talk RAP Style</title>
+			<description>Dave's rant about Baseball and the Detroit Sports Syndrom.  We also cover the brand new Random Topic of the Week.  This weeks RTotW:  Bobby Pins.  And then there's some stuff about Jack Thompson.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-20-22%20-%20Episode%206%20-%20Sports%20Talk%20RAP%20style.mp3" length="26943488" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net/podcasts/2006-20-22%20-%20Episode%206%20-%20Sports%20Talk%20RAP%20style.mp3</link>
+		</item>
+			  <item>
+				<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR7</guid>
+				<pubDate>Sun, 15 Oct 2006 20:22:19 -0400</pubDate>
+				<title>Episode 5 - Big Brother</title>
+				<description>From naming your computer to Jack Thompson being shot for crossing state lines, we valiant podcasters attempt to entertain the masses once more.</description>
+				<enclosure url="http://rapodcast.net/podcasts/2006-10-15%20-%20Episode%205%20-%20Big%20Brother.mp3" length="27545600" type="audio/x-mpeg"/>
+				<link>http://rapodcast.net/podcasts/2006-10-15%20-%20Episode%205%20-%20Big%20Brother.mp3</link>
+			</item>
+         		<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR6</guid>
+			<pubDate>Fri, 06 Oct 2006 21:48:06 -0400</pubDate>
+			<title>Episode 4 - Soothsaying</title>
+			<description>Answers to the question of "What will the future bring?"  We try to do our best to answer, and also get a few random things in there.</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-10-04%20-%20Episode%204%20-%20Soothsaying.mp3" length="31213568" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net/podcasts/2006-10-04%20-%20Episode%204%20-%20Soothsaying.mp3</link>
+		</item>
+	<item>
+		<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR5</guid>
+		<pubDate>Fri, 22 Sep 2006 14:01:57 -0400</pubDate>
+		<title>Episode 3 - H4xx0rz</title>
+		<description>Your two valiant hosts doing their best to broaden your horizons, whether you like it or not.  </description>
+		<enclosure url="http://www.rapodcast.net/podcasts/2006-09-20%20-%20%20Episode%203%20-%20Haxorz.mp3" length="26912768" type="audio/x-mpeg"/>
+		<link>http://www.rapodcast.net/podcasts/2006-09-20%20-%20%20Episode%203%20-%20Haxorz.mp3</link>
+	</item>
+		  <item>
+		  <guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR4</guid>
+		  <itunes:author>David Palay and Andy Low</itunes:author>
+		  <pubDate>Fri, 15 Sep 2006 15:27:17 -0400</pubDate>
+		  <title>Episode 2 - Beeping Jack Thompson</title>
+		  <description>Ahh, Jack Thompson.  He's actually a relatively minor player in this broadcast, taking a back seat to a faculty strike at Eastern Michigan University, Facebook, the PS3, and our generally witty humor.  </description>
+		  <enclosure url="http://www.rapodcast.net/podcasts/2006-09-15%20-%20Episode%202%20-%20Bleeping%20Jack%20Thompson.mp3" length="27908096" type="audio/x-mpeg"/>
+		  <link>http://www.rapodcast.net/podcasts/2006-09-15%20-%20Episode%202%20-%20Bleeping%20Jack%20Thompson.mp3</link>
+		  </item>
+<item>
+			<guid isPermaLink="false">urn:x-1and1-com:feed:aspCWhKR3</guid>
+			<itunes:author>David Palay and Andy Low</itunes:author>
+			<pubDate>Fri, 08 Sep 2006 22:34:40 -0400</pubDate>
+			<title>Episode 1.5 - An Apology</title>
+			<description>No, we're not dead.  But this is why Episode 2 won't be up for a few days yet.  Sorry all.   -Dave</description>
+			<enclosure url="http://www.rapodcast.net/podcasts/2006-09-08%20Episode%201.5%20-%20Apology.mp3" length="178176" type="audio/x-mpeg"/>
+			<link>http://www.rapodcast.net/podcasts/2006-09-08%20Episode%201.5%20-%20Apology.mp3</link>
+</item>
+          <item>
+            <guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR2
+            </guid>
+			<itunes:author>
+David Palay and Andy Low
+		    </itunes:author>
+
+            <pubDate>
+Wed, 30 Aug 2006 17:21:29 -0400
+            </pubDate>
+            <title>
+Episode 1 - The Crappy Green
+            </title>
+            <description>
+              The first true episode wherein our valient heros discuss themselves, the future of RAPodcast, PAX, and more! (even a bit about LARPers)
+            </description>
+            <enclosure url="http://www.rapodcast.net/podcasts/2006-08-30%20-%20Episode%201%20-%20The%20Crappy%20Green.mp3" length="8071696" type="audio/x-mpeg" />
+            <link>
+            http://www.rapodcast.net/podcasts/2006-08-30%20-%20Episode%201%20-%20The%20Crappy%20Green.mp3
+            </link>
+          </item>
+          <item>
+            <guid isPermaLink="false">
+urn:x-1and1-com:feed:aspCWhKR1
+            </guid>
+			<itunes:author>
+David Palay and Andy Low
+		    </itunes:author>
+
+            <pubDate>
+Sun, 27 Aug 2006 19:16:37 -0400
+            </pubDate>
+            <title>
+Episode 0.0 The Ultra Crappy Vendor Fodder
+            </title>
+            <description>
+This is the first broadcast of the Random Access Podcast, and is being sent out more as an outtake than as a serious episode. Hear the effort of starting a podcast.
+            </description>
+            <enclosure url="http://www.rapodcast.net/podcasts/2006-08-27%20-%20Episode%200.0%20-%20The%20Crappier%20Non-Green.mp3" length="2376712" type="audio/x-mpeg" />
+            <link>
+            http://www.rapodcast.net/podcasts/2006-08-27%20-%20Episode%200.0%20-%20The%20Crappier%20Non-Green.mp3
+            </link>
+          </item>
+        </channel>
+      </rss>

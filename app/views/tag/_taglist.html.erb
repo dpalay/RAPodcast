@@ -1,0 +1,6 @@
+<%unless tags.empty? -%>
+<%= @str = " "
+	 tags.each {|tag| @str +=  link_to(tag, { :controller => :tag, :action => :tag, :id => tag })  + ", "}
+	 @str.chomp(", ")
+	 -%>
+<%end -%>

@@ -1,0 +1,4 @@
+<%form_tag :controller => 'tag', :action => 'search' do%>
+Tags: <%=text_field_tag :q, nil, :style => 'width: 90%;'%><br/>
+<%=submit_tag "Search", :style => 'width: 30%;'%>
+<% end %>

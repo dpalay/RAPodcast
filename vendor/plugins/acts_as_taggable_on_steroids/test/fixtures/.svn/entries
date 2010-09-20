@@ -1,0 +1,184 @@
+8
+
+dir
+9
+file:///C:/svn/vendor/plugins/acts_as_taggable_on_steroids/test/fixtures
+file:///C:/svn
+
+
+
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e20b0e07-39ab-ef40-9506-1499a68e76be
+
+user.rb
+file
+
+
+
+
+2008-01-10T18:07:58.019788Z
+410d6680059c1d413c84e0a26a602a38
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+users.yml
+file
+
+
+
+
+2008-01-10T18:07:58.023694Z
+200d8fe7c0c3a56db4584ea4bba0c492
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+taggings.yml
+file
+
+
+
+
+2008-01-10T18:07:58.026623Z
+5cbb42e78c05587e797f5d071749d026
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+subscription.rb
+file
+
+
+
+
+2008-01-10T18:07:58.038341Z
+1f99dc28a5394293ff827bf0514bcfe9
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+post.rb
+file
+
+
+
+
+2008-01-10T18:07:58.042247Z
+b780ac81743d7724f2cf6d852b10b3cf
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+special_post.rb
+file
+
+
+
+
+2008-01-10T18:07:58.046153Z
+b6711a2b161f0c02888111de72fd9a0e
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+subscriptions.yml
+file
+
+
+
+
+2008-01-10T18:07:58.049083Z
+c85e95fdb4fb16e9d0841051e115cec0
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+posts.yml
+file
+
+
+
+
+2008-01-10T18:07:58.052989Z
+e966d1196815a74e3a3a220f5626c375
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+photo.rb
+file
+
+
+
+
+2008-01-10T18:07:58.056895Z
+1cae77087dc497bfa7de159bcaf09d35
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+photos.yml
+file
+
+
+
+
+2008-01-10T18:07:58.060801Z
+a3847d2fa2c9227ccd6a1ae8b50bb0e9
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+magazine.rb
+file
+
+
+
+
+2008-01-10T18:07:58.063730Z
+7203e2f915639d70e764ab26548971ee
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+magazines.yml
+file
+
+
+
+
+2008-01-10T18:07:58.068613Z
+e235980c256dfbf2b1ab91d53753426b
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+
+tags.yml
+file
+
+
+
+
+2008-01-10T18:07:58.071542Z
+0301cb5b59bbe409df61725b66cfb016
+2008-01-10T17:49:43.135763Z
+1
+David Palay
+

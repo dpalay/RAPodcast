@@ -1,0 +1,31 @@
+<% title "Link List" %>
+<div id="title"><h1>Listing links</h1></div>
+<div id="main_listing" style="overflow: scroll;">
+<table>
+  <tr>
+  <% for column in Link.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  	<th>Submitted By</th>
+  </tr>
+  
+<% for link in @link %>
+  <tr>
+  <% for column in Link.content_columns %>
+    <td><%=h link.send(column.name) %></td>
+  <% end %>	
+  <%if link.user_id == 0%>
+	<td>Anonymous</td>
+  <%else%>
+	<td><%=link.user.login%></td>
+  <%end%>
+
+    <td><%= link_to 'Show', :action => 'show', :id => link %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => link %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => link }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />

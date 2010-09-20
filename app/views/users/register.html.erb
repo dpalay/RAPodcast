@@ -1,0 +1,42 @@
+<h1>Registration</h1>
+<% form_for :user do |form| %>
+
+  <%= error_messages_for "user" %>
+	<fieldset>
+		<legend>Enter Your Details</legend>
+		
+		<div class="form_row">
+		  <label for="login">Desired Login:</label>
+		  <%= form.text_field :login %>
+		  <br/><br/>
+		</div>
+		
+		<div class="form_row">
+		  <label for="screen_name">Desired Screen Name:</label>
+		  <%= form.text_field :screen_name %>
+		  <br/><br/>
+		</div>
+		
+		<div class="form_row">
+		  <label for="email">Email Address:</label>
+		  <%= form.text_field :email %>
+		  <br/><br/>
+		</div>
+		
+		<div class="form_row">
+		  <label for="password">Desired Password:</label>
+		  <%= form.password_field :password %>
+		  <br/><br/>
+		</div>
+		
+		<div class="form_row">
+		  <label for="password_confirm">Confirm Password:</label>
+		  <%= form.password_field :password_confirmation %>
+		  <br/><br/><br/>
+		</div>
+		
+		<div class="form_row">
+			<%= submit_tag "Register!", :class => "submit", :id => "register_button" %>
+		</div>
+	</fieldset>
+<% end %>

@@ -1,0 +1,3 @@
+<% title "Tag Cloud - Click on a tag to search by it"%>
+<h1 style="font-size: 1.75em;">The Tag Cloud</h1>
+<%= render :partial => 'postset/tagcloud', :locals => {:tags => Postset.tag_counts}%>

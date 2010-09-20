@@ -1,0 +1,67 @@
+8
+
+dir
+10
+file:///C:/svn/vendor/plugins/validates_email_format_of/tags/1.0/test
+file:///C:/svn
+
+
+
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+
+
+
+
+2008-01-11T05:14:09.386261Z
+38c7abac3f054421d0bf1fb677c006a4
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+validates_email_format_of_test.rb
+file
+
+
+
+
+2008-01-11T05:14:09.574726Z
+697513c0345d9015647aa21db3d57c3d
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+schema.rb
+file
+
+
+
+
+2008-01-11T05:14:09.197797Z
+20fd65b49706df6e5bde406d4eb266cd
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+database.yml
+file
+
+
+
+
+2008-01-11T05:14:08.406832Z
+f47cf5e7f349830de0153bb7f211d804
+2008-01-11T05:24:39.857627Z
+10
+David Palay
+
+fixtures
+dir
+

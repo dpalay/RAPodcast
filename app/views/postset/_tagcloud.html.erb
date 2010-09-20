@@ -1,0 +1,3 @@
+<% tag_cloud tags, %w(css1 css2 css3 css4 css5 css6 css7 css8) do |tag, css_class| %>
+    <%= link_to white_list(tag.name), { :controller => 'postset', :action => :tag, :id => tag.name }, :class => css_class %>
+  <% end %>

@@ -1,0 +1,10 @@
+<% title  @postset.title%>
+<h1>Editing postset</h1>
+
+<% form_tag :action => 'update', :id => @postset do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Edit' %>
+<% end %>
+
+<%= link_to 'Show', :action => 'show', :id => @postset %> |
+<%= link_to 'Back', :action => 'list' %>

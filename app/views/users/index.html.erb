@@ -1,0 +1,14 @@
+<h1>My Information</h1>
+<fieldset>
+	<legend>Site Information</legend>
+	<%# link_to "Edit information", :action => :edit_site_info%>
+	<ul>
+		<li>Login: <%= @user.login %></li>
+		<li>Screen Name: <%= @user.screen_name %></li>
+		<li>Email: <%=@user.email%></li>
+		<li>Member since: <%=@user.created_at.strftime("%A, %b %d, %Y")%></li>
+	</ul>
+</fieldset>
+<fieldset>
+	<legend>Coming Soon:  Personal Information</legend>
+</fieldset>

@@ -1,0 +1,41 @@
+<% unless @postset == nil%>
+	<h1>
+		<%= @postset.created_at.strftime("The PostSet created on %a %m/%d/%Y at %I:%M %p")%><br>
+		<%= "Titled: #{@postset.title}"%>
+	</h1>
+	<% if @postset.posts.count == 0 %>
+	<p> No posts! </p>
+	<% else %>
+		<table>
+			<tr>
+				<th>Post Title:</th>
+				<th>Post Author:</th>
+				<th>Post Created at:</th>
+				<th>Post Content:</th>
+			</tr>
+		<%= render :partial => 'postsetpost', :collection => @postset.posts %>
+		</table>
+		<% end %>
+		
+		<%# This section provides links between postsets.%>
+		
+		<% if @postset.id == 1%>
+			Prev |
+		<% else %>
+			<%= link_to 'Prev', :action => 'show', :id => (@postset.id - 1) %> |
+		<% end %>
+		
+		<% if Postset.find_by_id(@postset.id + 1) == nil %>
+			Next | <%= link_to 'New Post', :controller => 'post', :action => 'new'%>
+		<% else %>
+			<%= link_to 'Next', :action => 'show', :id => (@postset.id + 1) %> 
+		<% end %>
+		 | <%= link_to 'New PostSet', :action=> 'new'%><br>
+		
+		<%= link_to 'Edit', :action => 'edit', :id => @postset %>
+	
+<%else%>
+
+<h2>You have a big error!  There are no Postsets!</h2>
+<%= link_to 'Create one', :action => 'new' %>
+<%end%>

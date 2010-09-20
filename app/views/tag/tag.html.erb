@@ -1,0 +1,6 @@
+<h1 style="font-size: 1.75em; font-weight: strong; text-align: center;">
+List of Episodes tagged with:<br/>
+<span style="font-style: italic; font-size: 1.2em;"><%= params[:q]||(@tag_id)%></span></h1>
+<ul style="font-size: 1.5em;">
+  <%= render :partial => 'tag', :collection => @postsets%>
+</ul>

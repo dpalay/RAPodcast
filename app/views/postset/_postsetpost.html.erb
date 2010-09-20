@@ -1,0 +1,11 @@
+<div class="posts">
+	<tr>
+		<td id='title'><%= link_to "#{postsetpost.title}", :controller => 'post', :action => 'show', :id => postsetpost %></td>
+		<td id='user'><%= postsetpost.user_id %></td>
+		<td id='date'><%= postsetpost.created_at %></td>
+		<td id='content'><%= postsetpost.content %></td>
+	    <td><%= link_to 'Edit', :controller => 'post', :action => 'edit', :id => postsetpost %></td>
+    	<td><%= link_to 'Destroy', { :controller => 'post', :action => 'destroy', :id => postsetpost }, :confirm => 'Are you sure?', :method => :post %></td>
+
+	</tr>
+</div>
